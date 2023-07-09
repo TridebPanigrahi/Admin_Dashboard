@@ -47,7 +47,7 @@ a{
 li{
     list-style: none;
 }
-.icons{
+.icon{
     font-size: var(--h2FontSize);
     cursor: pointer;
 }
@@ -163,6 +163,7 @@ img, video{
                     border-radius: 10px;
                     font-weight: 400;
                     transition: .3s ease;
+                    box-shadow: none;
                     &:hover{
                         background: var(--hoverColor);
                         color: var(--blackColor);
@@ -230,6 +231,7 @@ img, video{
                     width: 100%;
                     gap: 0.5rem;
                     transition: .3s ease;
+                    box-shadow: none;
 
                     .icon{
                         font-size: 25px;
@@ -259,5 +261,19 @@ img, video{
                 }
             }
         }
+    }
+}
+
+.dashboard{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    .dashboardContainer{
+        height: 95vh;
+        width: 95%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgb(194, 194, 194);
     }
 }

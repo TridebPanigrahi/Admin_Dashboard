@@ -1,7 +1,6 @@
 import React from 'react'
-// import './Login.scss'
-import './Login.css'
-import '../../App.css'
+// import './Login.css'
+import '../../App.scss'
 import {Link} from 'react-router-dom'
 import video from '../../LoginAssets/flowerflying.mp4'
 import img from '../../LoginAssets/stay_fit__stay_healthy-removebg-preview.png'
@@ -53,6 +52,7 @@ const Login = () => {
               <span>Login</span>
               <AiOutlineSwapRight className='icon'/>
             </button>
+            <a href="/dashboard">Dashboard</a>
             <span className="forgotPassword">
               Forgot your password? <a href="">Click Here</a>
             </span>

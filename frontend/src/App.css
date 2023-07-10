@@ -85,13 +85,13 @@ img, video{
     background: var(--paleGreen);
 }
 
-/* body{
+.dashboard{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     padding: 1rem;
-} */
+}
 .dashboardContainer{
     position: relative;
     width: 95vw;
@@ -103,4 +103,9 @@ img, video{
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 2px 2px 8px var(--grayText);
+}
+
+/* Hide the Scroll thumb */
+::-webkit-scrollbar{
+    display: none;
 }
